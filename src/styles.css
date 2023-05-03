@@ -48,7 +48,9 @@ li {
 h1{
     font-size: 90px;
     margin: 0;
-
+    background: -webkit-linear-gradient(#133ab9, #cb19d1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 { 
@@ -59,6 +61,9 @@ P {
     margin: 0;
     font-size: 30px;
     font-weight: 300;
+    background: -webkit-linear-gradient(#7819d1,#13a6b9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .subtext {
@@ -76,6 +81,7 @@ P {
 .hero-text {
     margin-left: 80px;
     margin-bottom: 200px;
+    
 }
 
 .button{
